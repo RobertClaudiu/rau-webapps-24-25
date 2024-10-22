@@ -12,8 +12,14 @@
         <h2>
             <progress id="progress-bar" value="100" max="100" class="progress-bar"></progress>
         </h2><br>
-        <input type="file" id="upload_id" name="file" accept="image/*"><br><br><br>
+        <input type="file" id="upload_id" name="file" accept="image/*"><br><br>
+        <button type="button" id="openCameraBtn" class="button-base primary-button">Open Camera</button>
+        <video id="video" autoplay class="video"></video><br><br>
+        <button type="button" id="takePhotoBtn" class="button-base primary-button">Take Picture</button><br><br>
+        <canvas id="canvas" style="display:none;"></canvas><br><br>
         <button type="upload" class="button-base primary-button">Submit</button>   
     </form>
+
+    <script src="signup-2.js"></script>
 </body>
 </html>
